@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj",
+        "projectName": "SwitchBot 1.5 (Practice)",
+        "projectPath": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj",
+        "packagesPath": "C:\\Users\\Supreme Weeb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
