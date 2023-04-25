@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="SwitchBot 1.5 (Practice)"
-run/main_scene="res://Node2D.tscn"
+run/main_scene="res://Stage1.tscn"
 boot_splash/image="res://Assets/Sprites/Splash.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
@@ -22,8 +22,8 @@ settings/fps/force_fps=60
 
 [display]
 
-window/size/width=1000
-window/size/height=750
+window/size/width=1280
+window/size/height=704
 window/size/resizable=false
 
 [gui]

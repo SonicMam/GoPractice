@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "M:\\Godot\\Projects\\GoPractice\\SwitchBot 1.5 (Practice).csproj": {}
+    "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj": {}
   },
   "projects": {
-    "M:\\Godot\\Projects\\GoPractice\\SwitchBot 1.5 (Practice).csproj": {
+    "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\Godot\\Projects\\GoPractice\\SwitchBot 1.5 (Practice).csproj",
+        "projectUniqueName": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj",
         "projectName": "SwitchBot 1.5 (Practice)",
-        "projectPath": "M:\\Godot\\Projects\\GoPractice\\SwitchBot 1.5 (Practice).csproj",
-        "packagesPath": "C:\\Users\\Gaspar Machado\\.nuget\\packages\\",
-        "outputPath": "M:\\Godot\\Projects\\GoPractice\\.mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj",
+        "packagesPath": "C:\\Users\\Supreme Weeb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gaspar Machado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Supreme Weeb\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
