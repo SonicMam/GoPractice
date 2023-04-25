@@ -1,4 +1,4 @@
-# Godot Practice
+# Godot Game Engine Practice
 
 This prototype is a pixel art 2D thing.
 
@@ -14,4 +14,4 @@ Renderer: GLES 2
 
 ![The player character: Quandale Dinglelington](Assets/Sprites/Dingleton.png)
 
-![The current stage one of the game](Screenshots/Screenshot.png)
+![The current stage one of the game]
