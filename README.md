@@ -10,9 +10,6 @@ Language: C#
 
 Renderer: GLES 2
 
-Some current sprites and music has been taken by OMORI from OMOCAT, LLC. 
-Support the game [here](https://store.steampowered.com/app/1150690/OMORI/).
-
 ## Screenshots
 
 ![The player character: Quandale Dinglelington](Assets/Sprites/Dingleton.png)
