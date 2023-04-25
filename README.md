@@ -13,3 +13,5 @@ Renderer: GLES 2
 ## Screenshots
 
 ![The player character: Quandale Dinglelington](Assets/Sprites/Dingleton.png)
+
+![The current stage one of the game](Screenshot/Screenshot.png)
