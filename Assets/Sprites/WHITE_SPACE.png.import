@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BG.png-4fe82f5b98bf5a84e363ec1bb7f6beae.stex"
+path="res://.import/WHITE_SPACE.png-f1a4fd1fa0faff7b1ff1214a51e92f4d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/BG.png"
-dest_files=[ "res://.import/BG.png-4fe82f5b98bf5a84e363ec1bb7f6beae.stex" ]
+source_file="res://Assets/Sprites/WHITE_SPACE.png"
+dest_files=[ "res://.import/WHITE_SPACE.png-f1a4fd1fa0faff7b1ff1214a51e92f4d.stex" ]
 
 [params]
 

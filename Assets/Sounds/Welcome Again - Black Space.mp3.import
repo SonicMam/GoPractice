@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Welcome Again - Black Space.mp3-a00b8db97b907cba8df7f1470474e54c.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Welcome Again - Black Space.mp3"
+dest_files=[ "res://.import/Welcome Again - Black Space.mp3-a00b8db97b907cba8df7f1470474e54c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
