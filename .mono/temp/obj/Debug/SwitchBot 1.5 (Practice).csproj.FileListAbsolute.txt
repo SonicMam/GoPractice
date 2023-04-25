@@ -7,3 +7,12 @@ C:\Users\Supreme Weeb\OneDrive - University of the Sunshine Coast\Documents\Game
 C:\Users\Supreme Weeb\OneDrive - University of the Sunshine Coast\Documents\GameJam\Practice\.mono\temp\bin\Debug\SwitchBot 1.5 (Practice).pdb
 C:\Users\Supreme Weeb\OneDrive - University of the Sunshine Coast\Documents\GameJam\Practice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).dll
 C:\Users\Supreme Weeb\OneDrive - University of the Sunshine Coast\Documents\GameJam\Practice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).pdb
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).csproj.AssemblyReference.cache
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).GeneratedMSBuildEditorConfig.editorconfig
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).AssemblyInfoInputs.cache
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).AssemblyInfo.cs
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).csproj.CoreCompileInputs.cache
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).dll
+M:\Godot\Projects\GoPractice\.mono\temp\obj\Debug\SwitchBot 1.5 (Practice).pdb
+M:\Godot\Projects\GoPractice\.mono\temp\bin\Debug\SwitchBot 1.5 (Practice).dll
+M:\Godot\Projects\GoPractice\.mono\temp\bin\Debug\SwitchBot 1.5 (Practice).pdb
