@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "h3echR1FIex0vubvRFlhN1XUxX/EJ0si/V5SPMHboJdhNt5OXB5/kbfK7F1+z9v/mbJZ3XbbTCIJ7s3CNEYPPQ==",
+  "dgSpecHash": "/Pc7NqGQj+VvihyjFYJkRnJFON45qDlczKk6ZXNcD4NUz4jKZuVnKU53gIMnFSbVtOxaTfquf3vmJmQFejB3lQ==",
   "success": true,
-  "projectFilePath": "M:\\Godot\\Projects\\GoPractice\\SwitchBot 1.5 (Practice).csproj",
+  "projectFilePath": "C:\\Users\\Supreme Weeb\\OneDrive - University of the Sunshine Coast\\Documents\\GameJam\\Practice\\SwitchBot 1.5 (Practice).csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gaspar Machado\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\Gaspar Machado\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+    "C:\\Users\\Supreme Weeb\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Supreme Weeb\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }
