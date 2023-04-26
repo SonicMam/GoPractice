@@ -11,8 +11,8 @@ config_version=4
 [application]
 
 config/name="SwitchBot 1.5 (Practice)"
-run/main_scene="res://Stage1.tscn"
-boot_splash/image="res://Assets/Sprites/Splash.png"
+run/main_scene="res://Scenes/Stage1.tscn"
+boot_splash/image="res://Screenshots/Splash.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
 
