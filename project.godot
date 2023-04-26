@@ -8,6 +8,34 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "HBoxContainer",
+"class": "ContributorClass",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/ContributorClass.gd"
+}, {
+"base": "PanelContainer",
+"class": "GistItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/GistItem.gd"
+}, {
+"base": "HBoxContainer",
+"class": "InvitationItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/InvitationItem.gd"
+}, {
+"base": "PanelContainer",
+"class": "RepositoryItem",
+"language": "GDScript",
+"path": "res://addons/github-integration/scripts/RepositoryItem.gd"
+} ]
+_global_script_class_icons={
+"ContributorClass": "",
+"GistItem": "",
+"InvitationItem": "",
+"RepositoryItem": ""
+}
+
 [application]
 
 config/name="SwitchBot 1.5 (Practice)"
@@ -15,6 +43,13 @@ run/main_scene="res://Scenes/Stage1.tscn"
 boot_splash/image="res://Screenshots/Splash.png"
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
+
+[autoload]
+
+PluginSettings="*res://addons/github-integration/scripts/PluginSettings.gd"
+IconLoaderGithub="*res://addons/github-integration/scripts/IconLoaderGithub.gd"
+UserData="*res://addons/github-integration/scripts/user_data.gd"
+RestHandler="*res://addons/github-integration/scenes/RestHandler.tscn"
 
 [debug]
 
@@ -25,6 +60,10 @@ settings/fps/force_fps=60
 window/size/width=1280
 window/size/height=704
 window/size/resizable=false
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/github-integration/plugin.cfg" )
 
 [gui]
 
