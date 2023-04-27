@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Shadow.png-d197a8c3602a6952c0e0ddf1e2bce2d4.stex"
+path="res://.import/TileSetSmall.png-605b6d54e0c6166c6fa8444b09803ac5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Shadow.png"
-dest_files=[ "res://.import/Shadow.png-d197a8c3602a6952c0e0ddf1e2bce2d4.stex" ]
+source_file="res://Assets/Sprites/TileSetSmall.png"
+dest_files=[ "res://.import/TileSetSmall.png-605b6d54e0c6166c6fa8444b09803ac5.stex" ]
 
 [params]
 

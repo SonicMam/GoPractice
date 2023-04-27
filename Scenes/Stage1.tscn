@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Assets/Sprites/Tile Set.png" type="Texture" id=1]
-[ext_resource path="res://Assets/Sprites/Dingleton.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/TileSet-export.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Sprites/Dingleton-export.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Sounds/The Dangers of the Tomb.wav" type="AudioStream" id=3]
 [ext_resource path="res://Scripts/Player.cs" type="Script" id=4]
-[ext_resource path="res://Assets/Sprites/Shadow.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Sprites/Shadow-export.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 18, 25 )
@@ -111,8 +111,8 @@ position = Vector2( 254, 570 )
 script = ExtResource( 4 )
 
 [node name="Dingleton" type="Sprite" parent="Player"]
-position = Vector2( -0.470093, -0.470123 )
-scale = Vector2( 0.190199, 0.190199 )
+position = Vector2( 0.0784912, -2.07837 )
+scale = Vector2( 0.386519, 0.386519 )
 texture = ExtResource( 2 )
 hframes = 4
 
@@ -122,8 +122,8 @@ shape = SubResource( 1 )
 
 [node name="Shadow" type="Sprite" parent="Player"]
 modulate = Color( 0, 0, 0, 0.443137 )
-position = Vector2( -1.47498, 20 )
-scale = Vector2( 0.355937, 0.2125 )
+position = Vector2( -1.23748, 21.3507 )
+scale = Vector2( 0.390469, 0.233116 )
 z_index = -1
 texture = ExtResource( 5 )
 

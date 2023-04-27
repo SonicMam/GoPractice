@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Dingleton.png-536d3cf6ea25fcc640c2dd717b1bb494.stex"
+path="res://.import/ShadowSmall.png-7947ac23657091475a96bf319cc645d1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Dingleton.png"
-dest_files=[ "res://.import/Dingleton.png-536d3cf6ea25fcc640c2dd717b1bb494.stex" ]
+source_file="res://Assets/Sprites/ShadowSmall.png"
+dest_files=[ "res://.import/ShadowSmall.png-7947ac23657091475a96bf319cc645d1.stex" ]
 
 [params]
 
