@@ -19,7 +19,23 @@ public class Player : KinematicBody2D
         screenWidth = (int)visibleRect.Size.x;
         screenHeight = (int)visibleRect.Size.y;
     }
+    private void Death() // What happens when you die because you were killed
+    {
+        SceneTree sceneTree = GetTree();
+        sceneTree.ReloadCurrentScene();
+        GD.Print("RIP Dingleton");
+    }
 
+    //Collision detection for bad things that kill you
+    private void _on_Spikes_body_entered(Node body)
+    {
+        if (body is Player)
+        {
+            Player player = (Player)body;
+            player.Death();
+        }
+    }
+    
     [Obsolete]
     public override void _PhysicsProcess(float delta)  // Logic every frame
     {

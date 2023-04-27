@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Dangers of the Tomb.ogg-64f2682f6f4af45c2b34f71a1b5c9dda.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/The Dangers of the Tomb.ogg"
+dest_files=[ "res://.import/The Dangers of the Tomb.ogg-64f2682f6f4af45c2b34f71a1b5c9dda.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
