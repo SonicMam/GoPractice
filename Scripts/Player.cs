@@ -4,9 +4,9 @@ using System.Windows;
 
 public class Player : KinematicBody2D
 {
-    private const int acceleration = 1000; // Speeding up
+    private const int acceleration = 800; // Speeding up
     private const int maxSpeed = 800;
-    private const int friction = 2000; // Slowing down
+    private const int friction = 3000; // Slowing down
     private Vector2 velocity;
     private int screenWidth;
     private int screenHeight;
