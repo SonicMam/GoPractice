@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Assets/Sprites/TileSet-export.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Sprites/Dingleton-export.png" type="Texture" id=2]
@@ -6,9 +6,13 @@
 [ext_resource path="res://Scripts/Player.cs" type="Script" id=4]
 [ext_resource path="res://Assets/Sprites/Shadow-export.png" type="Texture" id=5]
 [ext_resource path="res://Assets/Sprites/Wall-export.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Sprites/Vingleton-export.png" type="Texture" id=7]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 18, 25 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 58, 57.5 )
 
 [sub_resource type="TileSet" id=3]
 0/name = "WallBig"
@@ -105,7 +109,7 @@ extents = Vector2( 160, 33 )
 extents = Vector2( 32, 94.5 )
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 31.75, 31.75 )
+extents = Vector2( 31.975, 30.875 )
 
 [sub_resource type="TileSet" id=2]
 0/name = "HK"
@@ -226,6 +230,27 @@ scale = Vector2( 0.390469, 0.233116 )
 z_index = -1
 texture = ExtResource( 5 )
 
+[node name="Enemy" type="KinematicBody2D" parent="."]
+position = Vector2( 387, 192 )
+collision_layer = 4
+collision_mask = 15
+
+[node name="Vingleton" type="Sprite" parent="Enemy"]
+position = Vector2( -1, 0 )
+scale = Vector2( 0.386519, 0.386519 )
+texture = ExtResource( 7 )
+
+[node name="VingCollision" type="CollisionShape2D" parent="Enemy"]
+position = Vector2( -1, 0.5 )
+shape = SubResource( 8 )
+
+[node name="Shadow" type="Sprite" parent="Enemy"]
+modulate = Color( 0, 0, 0, 0.443137 )
+position = Vector2( -1.49999, 56.3507 )
+scale = Vector2( 0.88125, 0.233116 )
+z_index = -1
+texture = ExtResource( 5 )
+
 [node name="Spikes" type="Area2D" parent="."]
 collision_layer = 8
 
@@ -266,15 +291,15 @@ position = Vector2( 864, 478 )
 shape = SubResource( 7 )
 
 [node name="LineV2" type="CollisionShape2D" parent="Walls"]
-position = Vector2( 992, 477.5 )
+position = Vector2( 992, 478 )
 shape = SubResource( 7 )
 
 [node name="1" type="CollisionShape2D" parent="Walls"]
-position = Vector2( 800.25, 222.5 )
+position = Vector2( 800.025, 223.5 )
 shape = SubResource( 5 )
 
 [node name="2" type="CollisionShape2D" parent="Walls"]
-position = Vector2( 928, 223 )
+position = Vector2( 928, 223.5 )
 shape = SubResource( 5 )
 
 [node name="3" type="CollisionShape2D" parent="Walls"]

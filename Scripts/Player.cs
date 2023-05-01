@@ -27,7 +27,7 @@ public class Player : KinematicBody2D
     }
 
     //Collision detection for bad things that kill you
-    private void _on_Spikes_body_entered(Node body)
+    public void _on_Enemy_body_entered(Node body)
     {
         if (body is Player)
         {
@@ -35,7 +35,15 @@ public class Player : KinematicBody2D
             player.Death();
         }
     }
-    
+    public void _on_Spikes_body_entered(Node body)
+    {
+        if (body is Player)
+        {
+            Player player = (Player)body;
+            player.Death();
+        }
+    }
+
     [Obsolete]
     public override void _PhysicsProcess(float delta)  // Logic every frame
     {
