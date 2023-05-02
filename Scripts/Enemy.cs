@@ -8,14 +8,12 @@ public class Enemy : KinematicBody2D
     float moveTimer;
     TileMap BG;
     TileMap Walls;
-    Vingleton vingleton;
 
     public override void _Ready()
     {
         player = GetNode<KinematicBody2D>("../Player");
         BG = GetNode<TileMap>("../BG");
         Walls = GetNode<TileMap>("../BG/Walls/WallSprites");
-        vingleton = GetNode<Vingleton>("L/Vingleton");
     }
 
     public override void _Process(float delta)
@@ -28,15 +26,12 @@ public class Enemy : KinematicBody2D
         {
             Vector2 targetPos = Position + moveDirection * moveDistance;
             bool canMove = true;
-            Vector2 spriteScale = vingleton.Scale;
-            Vector2 spriteSize = vingleton.Texture.GetSize() * spriteScale;
-            Vector2 halfSize = spriteSize / 2.0f;
             Vector2[] corners = new Vector2[]
             {
-            new Vector2(targetPos.x - halfSize.x, targetPos.y - halfSize.y),
-            new Vector2(targetPos.x + halfSize.x, targetPos.y - halfSize.y),
-            new Vector2(targetPos.x - halfSize.x, targetPos.y + halfSize.y),
-            new Vector2(targetPos.x + halfSize.x, targetPos.y + halfSize.y)
+            new Vector2(targetPos.x - 60, targetPos.y - 60),
+            new Vector2(targetPos.x + 60, targetPos.y - 60),
+            new Vector2(targetPos.x - 60, targetPos.y + 60),
+            new Vector2(targetPos.x + 60, targetPos.y + 60)
             };
             foreach (Vector2 corner in corners)
             {
